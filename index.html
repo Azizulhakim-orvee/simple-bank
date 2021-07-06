@@ -25,39 +25,40 @@
     </div>
 
     <div id="transaction-area">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="deposit status">
-                    <h5>Deposit</h5>
-                    <h1>$ <span id="currentDeposit">00</span></h1>
+            <div class="row">
+                <div class="col">
+                    <div class="deposit status">
+                        <h5>Deposit</h5>
+                        <h1>$ <span id="currentDeposit">00</span></h1>
+                    </div>
+    
                 </div>
+                <div class="col">
+                    <div class="withdraw status">
+                        <h5>Withdraw</h5>
+                        <h1>$ <span id="currentWithdraw">00</span></h1>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="balance status">
+                        <h5>Balance</h5>
+                        <h1>$ <span id="currentBalance">1200</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 submit-area">
+                    <h4>Deposit</h4>
+                    <input id="depositAmount" type="text" class='form-control' placeholder="put money in">
+                    <br>
+                    <button class="btn btn-success" id='addDeposit'>Deposit</button></div>
+                <div class="col-md-6 submit-area">
+                    <h4>Withdraw</h4>
+                    <input id="withdrawAmount" type="text" class='form-control' placeholder="take money out">
+                    <br>
+                   <button class="btn btn-success" id="addWithdraw">Withdraw</button></div>
+            </div>
 
-            </div>
-            <div class="col-md-4">
-                <div class="withdraw status">
-                    <h5>Withdraw</h5>
-                    <h1>$ <span id="currentWithdraw">00</span></h1>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="balance status">
-                    <h5>Balance</h5>
-                    <h1>$ <span id="currentBalance">1200</span></h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 submit-area">
-                <h4>Deposit</h4>
-                <input id="depositAmount" type="text" class='form-control' placeholder="put money in">
-                <br>
-                <button class="btn btn-success" id='addDeposit'>Deposit</button></div>
-            <div class="col-md-6 submit-area">
-                <h4>Withdraw</h4>
-                <input id="withdrawAmount" type="text" class='form-control' placeholder="take money out">
-                <br>
-               <button class="btn btn-success" id="addWithdraw">Withdraw</button></div>
-        </div>
     </div>
 
     <script>

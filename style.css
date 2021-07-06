@@ -2,7 +2,6 @@ body{
     padding: 100px;
 }
 
-
 .submit-area{
     padding: 40px;
     margin-top: 50px;
@@ -29,6 +28,55 @@ body{
     background-color: lightsalmon;
 }
 .balance{
-    background-color: orange;
+    background-color: green;
 }
 
+@media (max-width:500px){
+
+    body{
+        padding: 50px;
+        margin-top: 100px;
+    }
+    h5{
+        font-size: small;
+    }
+    h1{
+        font-size: small;
+    }
+    h4{
+        font-size: medium;
+    }
+    .status{
+        margin: 1px 1px;
+        padding: 2px;
+        border-radius: 2px;
+        color: whitesmoke;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+
+    }
+
+    .deposit{
+        background-color: slateblue;
+    }
+    
+    .withdraw{
+        background-color: lightsalmon;
+    }
+    .balance{
+        background-color: green;
+    }
+
+    .submit-area{
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray;
+        text-align: center;
+    }
+    
+  
+
+}
